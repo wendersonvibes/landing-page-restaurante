@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor-primaria: #270808;
+    --cor-secundaria: #813019;
+    --cor-terciaria: #CC6B3E;
+    --cor-neutra: #fff;
+    --sombra: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--cor-neutra);
+}
+
+.texto-destaque-container {
+    width: 700px;
+    height: 125px;
+    margin-top: 200px;
+}
+
+.texto-destaque {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--cor-secundaria);
+    text-shadow: 5px 5px 10px var(--sombra);
+}
+
+.texto-mensagem {
+    text-shadow: 5px 5px 10px var(--sombra);
+}
+
+#botao-cardapio {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    box-shadow: 5px 5px 10px var(--sombra);
+}
